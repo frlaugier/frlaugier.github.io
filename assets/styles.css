@@ -1,0 +1,203 @@
+        body {
+            background-image: url("img/IMG_4269.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom center;
+            background-attachment: fixed;
+
+            font-family: "Roboto", serif;
+        }
+
+        @media (min-width:830px) {
+            body {
+                background-position: bottom right;
+                background-size: contain;
+            }
+        }
+
+
+        .hero-section h1,
+        h2,
+        h3 {
+            font-family: 'Marcellus', serif;
+            color: white;
+        }
+
+        .hero-section {
+            background-image: linear-gradient(225deg, rgba(222, 222, 222, 0) 36%, rgb(69, 69, 69) 65%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        .hero-text {
+            padding-top: 30vh;
+            min-height: 100vh;
+            color: white;
+
+        }
+
+        .hero-blank {
+            //            border-color: red;
+            //            border-style: solid;
+            background: rgba(255, 255, 255, 0);
+        }
+
+        .hero-title {
+            font-family: 'Marcellus', serif;
+            font-size: calc(36px + 0.390625vw);
+            flex-wrap: nowrap;
+        }
+
+        .hero-subtitle {
+            font-family: 'Marcellus', serif;
+            font-size: calc(18px + 0.390625vw);
+        }
+
+        .hero-normal {
+            font-family: 'Roboto', serif;
+            font-size: calc(14px + 0.390625vw);
+        }
+
+        .hero-imgbox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-imgwrap {
+            width: 100%;
+            /*or whatever you choose*/
+            margin: auto;
+        }
+
+        .hero-imgwrap img {
+            display: block;
+            width: 100%;
+            max-width: 150px;
+            /*actual image width*/
+            height: auto;
+            /* maintain aspect ratio*/
+            margin: auto;
+            /*optional centering of image*/
+        }
+
+        .section-clear {
+            background: rgba(255, 255, 255, 0);
+        }
+
+        .section-activities {
+            background-color: rgba(0, 0, 0, 0.75);
+            min-height: 100vh;
+        }
+
+        .activities-card {
+            min-height: 25vh;
+            /height: 50vh;
+            font-size: 0.9em;
+            font-size-adjust: auto;
+            position: relative;
+            display: inline-table;
+
+        }
+
+        @media (min-width:768px) {
+            .activities-card {
+                height: 50vh;
+            }
+        }
+
+        .section-certification {
+            background-color: #494048;
+            color: #FFFFFF;
+            min-height: 100vh;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Marcellus', serif;
+        }
+
+        .block-title {
+            text-align: center;
+        }
+
+        .lighttext {
+            color: white;
+        }
+
+        .fa-face {
+            width: 6rem;
+            height: 6rem;
+            line-height: 6rem;
+            background-color: rgb(39, 143, 132);
+            color: rgb(73, 64, 72);
+        }
+
+        .certifications {
+            width: 100%;
+            height: 25%;
+        }
+
+        .certifications img {
+            min-width: 100px;
+            max-width: 150px;
+            width: 5vw;
+        }
+
+        .certifications .certif {
+            font-size: 1.1em;
+            display: flex;
+            flex-wrap: wrap;
+            /flex-flow: wrap;
+            flex-direction: column;
+            align-items: center;
+            margin: 5px;
+        }
+
+        .section-testimonials {
+            background-color: rgba(0, 0, 0, 0.75);
+            min-height: 100vh;
+        }
+
+        .section-testimonials h1 {
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .carousel-item {
+            background-color: white;
+            border-radius: 5px;
+            min-width: 400px;
+            max-width: 80%;
+            height: 80%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            margin-bottom: 10%;
+            margin-top: 10%;
+            padding: 15px;
+        }
+
+        .carousel-icon {
+            margin-right: 5px;
+            /display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            / width: 3rem;
+            / height: 3rem;
+            / line-height: 3rem;
+            display: flex;
+            float: left;
+        }
+
+        .testi-name {
+            color: #707070;
+            margin-top: 10px;
+        }
+
+        .testi-comment {
+            /display: flex;
+            float: right margin-left: 15px;
+        }
