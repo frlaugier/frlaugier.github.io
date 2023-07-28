@@ -1,17 +1,26 @@
         body {
-            background-image: url("img/IMG_4269.jpeg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: bottom center;
-            background-attachment: fixed;
-            //position: fixed;
+//            background-image: url("img/IMG_4269.jpeg");
+//            background-repeat: no-repeat;
+//            background-size: cover;
+//            background-position: bottom center;
+//            background-attachment: fixed;
+//            position: fixed;
 //  transform: translateZ(0);
 //  will-change: transform;
-z-index: -1;
+//z-index: -1;
             font-family: "Roboto", serif;
         }
-main footer{
-//    position: absolute;
+.bg {
+    height:100vh;
+    z-index:-1;
+    position:fixed;
+    background-image: url("img/IMG_4269.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+//  position: fixed;
+  height: 100vh;
+  width: 100vw;
 }
         @media (min-width:830px) {
             body {
@@ -29,8 +38,8 @@ main footer{
         }
 
         .hero-section {
-            //background-image: linear-gradient(225deg, rgba(222, 222, 222, 0) 36%, rgb(69, 69, 69) 65%);
-            background-image: linear-gradient(225deg, rgba(111, 111, 111, 0.3) 36%, rgb(69, 69, 69) 65%);
+            background-image: linear-gradient(225deg, rgba(222, 222, 222, 0) 36%, rgb(69, 69, 69) 65%);
+            //background-image: linear-gradient(225deg, rgba(111, 111, 111, 0.3) 36%, rgb(69, 69, 69) 65%);
             background-attachment: fixed;
             min-height: 100vh;
             width: 100%;
