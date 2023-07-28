@@ -1,27 +1,42 @@
         body {
-//            background-image: url("img/IMG_4269.jpeg");
-//            background-repeat: no-repeat;
-//            background-size: cover;
-//            background-position: bottom center;
-//            background-attachment: fixed;
-//            position: fixed;
-//  transform: translateZ(0);
-//  will-change: transform;
-//z-index: -1;
+            //            background-image: url("img/IMG_4269.jpeg");
+            //            background-repeat: no-repeat;
+            //            background-size: cover;
+            //            background-position: bottom center;
+            //            background-attachment: fixed;
+            //            position: fixed;
+            //  transform: translateZ(0);
+            //  will-change: transform;
+            //z-index: -1;
             font-family: "Roboto", serif;
         }
-.bg {
-    height:100vh;
-    z-index:-1;
-    position:fixed;
-    background-image: url("img/IMG_4269.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-//  position: fixed;
-  height: 100vh;
-  width: 100vw;
-}
+
+        .bg {
+            z-index: -1;
+            position: fixed;
+            background-image: url("img/IMG_4269.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+
+            //  position: fixed;
+            height: 100vh;
+            width: 100%;
+        }
+
+        main footer {
+            position: absolute;
+        }
+
+        footer {
+            height: 100vh;
+        }
+
+        .social-footer {
+            padding-top: 25%;
+            max-height: 30vh;
+        }
+
         @media (min-width:830px) {
             body {
                 background-position: bottom right;
