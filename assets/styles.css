@@ -1,13 +1,4 @@
         body {
-            //            background-image: url("img/IMG_4269.jpeg");
-            //            background-repeat: no-repeat;
-            //            background-size: cover;
-            //            background-position: bottom center;
-            //            background-attachment: fixed;
-            //            position: fixed;
-            //  transform: translateZ(0);
-            //  will-change: transform;
-            //z-index: -1;
             font-family: "Roboto", serif;
         }
 
@@ -18,8 +9,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: top center;
-
-            //  position: fixed;
             height: 100vh;
             width: 100%;
         }
@@ -54,7 +43,6 @@
 
         .hero-section {
             background-image: linear-gradient(225deg, rgba(222, 222, 222, 0) 36%, rgb(69, 69, 69) 65%);
-            //background-image: linear-gradient(225deg, rgba(111, 111, 111, 0.3) 36%, rgb(69, 69, 69) 65%);
             background-attachment: fixed;
             min-height: 100vh;
             width: 100%;
@@ -64,12 +52,13 @@
             padding-top: 30vh;
             min-height: 100vh;
             color: white;
+            text-align: justify;
+            text-justify: inter-word;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
         }
 
         .hero-blank {
-            //            border-color: red;
-            //            border-style: solid;
             background: rgba(255, 255, 255, 0);
         }
 
@@ -123,7 +112,6 @@
 
         .activities-card {
             min-height: 25vh;
-            /height: 50vh;
             font-size: 0.9em;
             font-size-adjust: auto;
             position: relative;
@@ -180,7 +168,6 @@
             font-size: 1.1em;
             display: flex;
             flex-wrap: wrap;
-            /flex-flow: wrap;
             flex-direction: column;
             align-items: center;
             margin: 5px;
@@ -212,12 +199,8 @@
 
         .carousel-icon {
             margin-right: 5px;
-            /display: inline-block;
             vertical-align: middle;
             text-align: center;
-            / width: 3rem;
-            / height: 3rem;
-            / line-height: 3rem;
             display: flex;
             float: left;
         }
@@ -228,6 +211,5 @@
         }
 
         .testi-comment {
-            /display: flex;
-            float: right margin-left: 15px;
+            margin-left: 15px;
         }
