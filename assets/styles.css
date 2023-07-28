@@ -5,10 +5,14 @@
             background-position: bottom center;
             background-attachment: fixed;
             //position: fixed;
-
+//  transform: translateZ(0);
+//  will-change: transform;
+z-index: -1;
             font-family: "Roboto", serif;
         }
-
+main footer{
+//    position: absolute;
+}
         @media (min-width:830px) {
             body {
                 background-position: bottom right;
@@ -25,7 +29,8 @@
         }
 
         .hero-section {
-            background-image: linear-gradient(225deg, rgba(222, 222, 222, 0) 36%, rgb(69, 69, 69) 65%);
+            //background-image: linear-gradient(225deg, rgba(222, 222, 222, 0) 36%, rgb(69, 69, 69) 65%);
+            background-image: linear-gradient(225deg, rgba(111, 111, 111, 0.3) 36%, rgb(69, 69, 69) 65%);
             background-attachment: fixed;
             min-height: 100vh;
             width: 100%;
