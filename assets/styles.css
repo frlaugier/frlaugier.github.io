@@ -142,6 +142,7 @@
             font-size:medium;
             font-family: montserrat, sans-serif;
             font-style:normal;
+            text-shadow: 1px 1px 0.5em #fff,1px 1px 0.5em #fff,1px 1px 0.5em #fff,1px 1px 0.5em #fff;
         }
 
         .section-certification {
