@@ -38,7 +38,7 @@
         h2,
         h3 {
             font-family: 'Marcellus', serif;
-            color: white;
+/*            color: white;*/
         }
 
         .hero-section {
@@ -54,7 +54,7 @@
             color: white;
             text-align: justify;
             text-justify: inter-word;
-            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000000, -1px 1px 0 #000, 1px 1px 0 #000;
 
         }
 
@@ -108,6 +108,13 @@
         .section-activities {
             background-color: rgba(0, 0, 0, 0.75);
             min-height: 100vh;
+            color: white;
+        }
+        .light {
+            color: white;
+        }
+        .dark {
+            color: black;
         }
 
         .activities-card {
@@ -123,6 +130,18 @@
             .activities-card {
                 height: 50vh;
             }
+        }
+
+        #section-message1 {
+            background-color: #ffffffda;
+            color: #000000;
+            min-height: 10vh;
+            text-align: center;
+            margin: 5%;
+            padding:20px;
+            font-size:medium;
+            font-family: montserrat, sans-serif;
+            font-style:normal;
         }
 
         .section-certification {
