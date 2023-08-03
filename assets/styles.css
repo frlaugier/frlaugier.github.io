@@ -151,6 +151,20 @@
             min-height: 100vh;
         }
 
+        .section-autopromo {
+            background-color: #494048;
+            color: #FFFFFF;
+            max-height: 90vh;
+            overflow:auto;
+        }
+        .autopromo-content{
+            float: none;
+        }
+        .autopromo-content img{
+            width: 90vw;
+            margin-left: 5%;
+        }
+
         h1,
         h2,
         h3 {
@@ -195,7 +209,7 @@
 
         .section-testimonials {
             background-color: rgba(0, 0, 0, 0.75);
-            min-height: 100vh;
+            min-height: 10vh;
         }
 
         .section-testimonials h1 {
