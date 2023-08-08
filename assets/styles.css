@@ -157,6 +157,13 @@
             max-height: 90vh;
             overflow:auto;
         }
+        #section-blog {
+            height: 100vh;
+            background-color: #4d4d4ddf;
+            color: #ffffff;
+            overflow:auto;
+            text-align:center;
+        }
         .autopromo-content{
             float: none;
         }
