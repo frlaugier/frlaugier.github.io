@@ -13,6 +13,34 @@
             width: 100%;
         }
 
+        .navbar {
+            position: fixed;
+            /* position: fixed; */
+            /* right: 0; */
+            /* bottom: 0; */
+            /* left: 0; */
+         /* z-index: 1030; */
+            background-color: #fff;
+            height: 60px;
+            text-align: center;
+            text-justify: distribute;
+            vertical-align: center;
+            padding-top: 10px;
+            /* font-weight:bold; */
+            font-family: 'Marcellus', serif;
+        }
+        .navbar-brand {
+            font-family: 'Marcellus', serif;
+            font-size: max(1.8vw, 1em, 1rem);
+        }
+
+        .offcanvas {
+            transition: transform 1s ease-in-out;
+        }
+        
+section{
+    padding-top:60px;
+}
         main footer {
             position: absolute;
         }
@@ -38,7 +66,7 @@
         h2,
         h3 {
             font-family: 'Marcellus', serif;
-/*            color: white;*/
+            /*            color: white;*/
         }
 
         .hero-section {
@@ -46,6 +74,7 @@
             background-attachment: fixed;
             min-height: 100vh;
             width: 100%;
+            margin-top: 60px;
         }
 
         .hero-text {
@@ -110,9 +139,11 @@
             min-height: 100vh;
             color: white;
         }
+
         .light {
             color: white;
         }
+
         .dark {
             color: black;
         }
@@ -138,11 +169,11 @@
             min-height: 10vh;
             text-align: center;
             margin: 5%;
-            padding:20px;
-            font-size:medium;
+            padding: 20px;
+            font-size: medium;
             font-family: montserrat, sans-serif;
-            font-style:normal;
-            text-shadow: 1px 1px 0.5em #fff,1px 1px 0.5em #fff,1px 1px 0.5em #fff,1px 1px 0.5em #fff;
+            font-style: normal;
+            text-shadow: 1px 1px 0.5em #fff, 1px 1px 0.5em #fff, 1px 1px 0.5em #fff, 1px 1px 0.5em #fff;
         }
 
         .section-certification {
@@ -155,19 +186,31 @@
             background-color: #494048;
             color: #FFFFFF;
             max-height: 90vh;
-            overflow:auto;
+            overflow: auto;
         }
+
         #section-blog {
             height: 100vh;
             background-color: #4d4d4ddf;
             color: #ffffff;
-            overflow:auto;
-            text-align:center;
+            overflow: auto;
+            text-align: center;
         }
-        .autopromo-content{
+
+        #section-uwake {
+            min-height: 10vh;
+            padding: 10vh;
+            background-color: #969696a3;
+            color: #000000;
+            overflow: auto;
+            text-align: center;
+        }
+
+        .autopromo-content {
             float: none;
         }
-        .autopromo-content img{
+
+        .autopromo-content img {
             width: 90vw;
             margin-left: 5%;
         }

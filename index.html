@@ -15,15 +15,15 @@
 
         gtag('config', 'G-D8BMVQE0ZB');
     </script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1005006739"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1005006739"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'AW-1005006739');
-</script>
+        gtag('config', 'AW-1005006739');
+    </script>
 
 
     <meta charset="utf-8" />
@@ -69,14 +69,6 @@ Chaque individu recèle une valeur extraordinaire ainsi que les solutions à ses
     <title>François Laugier - Coach Mentor</title>
     <link type="image/x-icon" rel="shortcut icon" href="/web/image/website/1/favicon?unique=943e868" />
     <script src="https://kit.fontawesome.com/42e53527bc.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <script src="assets/jquery-3.7.0.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -85,10 +77,21 @@ Chaque individu recèle une valeur extraordinaire ainsi que les solutions à ses
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
 
 
     <script language="javascript" type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             //console.log("Hello world!");
             fetch("./assets/testimonials.json").then(response => {
                 return response.json();
@@ -111,7 +114,7 @@ Chaque individu recèle une valeur extraordinaire ainsi que les solutions à ses
                 });
         });
 
-        
+
     </script>
 
 
@@ -150,13 +153,49 @@ Chaque individu recèle une valeur extraordinaire ainsi que les solutions à ses
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid flex-nowrap">
+            <a class="navbar-brand" href="#">François Laugier Coach Mentor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" data-bs-dismiss="offcanvas">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#activities">Interventions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certification">Certifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Témoignages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-blog">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section-uwake">La communauté</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rencontre">Rencontre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <div id="global" class="">
-        <header id="top" data-anchor="true" data-name="Header" class=" d-none o_snippet_invisible o_header_standard"
-            data-invisible="1">
-
-
-        </header>
         <div id=bg class=bg></div>
         <main class="">
             <section id="hero" class="hero-section">
@@ -385,6 +424,7 @@ Chaque individu recèle une valeur extraordinaire ainsi que les solutions à ses
             </section>
 
             <section id="autopromo" class="section-autopromo">
+                <!-- <script src="img/autopromo/autopromo.js"></script> -->
                 <!-- <div class="lightbox">
                     <div class="multi-carousel">
                       <div class="multi-carousel-inner">
@@ -439,12 +479,28 @@ Chaque individu recèle une valeur extraordinaire ainsi que les solutions à ses
                     <img src="assets/img/AutoPromo/5.png" />
                 </div> -->
             </section>
-            <section class="s_title pt40 o_colored_level pb0" data-vcss="001" data-snippet="s_title" data-name="Titre"
-                style="background-color: rgb(255,255,255,50%);">
+            <section id="section-blog">
+                <h1>Les derniers articles du blog</h1>
+                <medium-blogpost username="francois-laugier"></medium-blogpost>
+                <script src="./assets/medium-blogpost-widget.js"></script>
+                <div>Pour en voir plus : <a href=https://francois-laugier.medium.com>Aller sur Medium</a></div>
+
+            </section>
+            <section id="section-uwake">
+                <h1>La communauté</h1>
+                <h2>des acteurs du changement</h2>
+                <a href="https://uwake.me" target="_blank"><img src="https://uwake.bitbucket.io/img/UwakeLogo/6.svg"
+                        style="max-width:60vw;" /></a>
+                <p>Je suis très impliqué dans la création de la communauté UWake qui regroupe les acteurs du changement
+                    quels que soient leurs talents.<br></p>
+            </section>
+            <section id=rencontre class="s_title pt40 o_colored_level pb0" data-vcss="001" data-snippet="s_title"
+                data-name="Titre" style="background-color: rgb(255,255,255,50%);">
                 <div class="s_allow_columns container">
                     <h1 style="text-align: center;">Prenons le temps d'échanger</h1>
                 </div>
             </section>
+
             <section class="s_embed_code pb64 o_colored_level o_full_screen_height pt8 text-center"
                 data-snippet="s_embed_code" data-name="Code intégré" style="background-color: rgb(255,255,255,50%);">
                 <div class="s_embed_code_embedded container o_not_editable">
@@ -469,13 +525,6 @@ Chaque individu recèle une valeur extraordinaire ainsi que les solutions à ses
                 </div>
             </section>
 
-<section id="section-blog">
-    <h1>Les derniers articles du blog</h1>
-    <medium-blogpost username="francois-laugier"></medium-blogpost>
-    <script src="./assets/medium-blogpost-widget.js"></script>
-    <div>Pour en voir plus : <a href=https://francois-laugier.medium.com>Aller sur Medium</a></div>
-
-</section>
         </main>
         <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc light"
             style="background-color: rgb(0,0,0,80%);">
