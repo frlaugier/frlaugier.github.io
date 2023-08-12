@@ -1,0 +1,299 @@
+        body {
+            font-family: "Roboto", serif;
+        }
+
+        .bg {
+            z-index: -1;
+            position: fixed;
+            background-image: url("img/IMG_4269.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            height: 100vh;
+            width: 100%;
+        }
+
+        .navbar {
+            position: fixed;
+            /* position: fixed; */
+            /* right: 0; */
+            /* bottom: 0; */
+            /* left: 0; */
+         /* z-index: 1030; */
+            background-color: #fff;
+            height: 60px;
+            text-align: center;
+            text-justify: distribute;
+            vertical-align: center;
+            padding-top: 10px;
+            /* font-weight:bold; */
+            font-family: 'Marcellus', serif;
+        }
+        .navbar-brand {
+            font-family: 'Marcellus', serif;
+            font-size: max(1.8vw, 1em, 1rem);
+        }
+
+        .offcanvas {
+            transition: transform 1s ease-in-out;
+        }
+        
+section{
+    padding-top:60px;
+}
+        main footer {
+            position: absolute;
+        }
+
+        footer {
+            height: 100vh;
+        }
+
+        .social-footer {
+            padding-top: 25%;
+            max-height: 30vh;
+        }
+
+        @media (min-width:830px) {
+            body {
+                background-position: bottom right;
+                background-size: contain;
+            }
+        }
+
+
+        .hero-section h1,
+        h2,
+        h3 {
+            font-family: 'Marcellus', serif;
+            /*            color: white;*/
+        }
+
+        .hero-section {
+            background-image: linear-gradient(225deg, rgba(222, 222, 222, 0) 36%, rgb(69, 69, 69) 65%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            width: 100%;
+            margin-top: 60px;
+        }
+
+        .hero-text {
+            padding-top: 30vh;
+            min-height: 100vh;
+            color: white;
+            text-align: justify;
+            text-justify: inter-word;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+        }
+
+        .hero-blank {
+            background: rgba(255, 255, 255, 0);
+        }
+
+        .hero-title {
+            font-family: 'Marcellus', serif;
+            font-size: calc(36px + 0.390625vw);
+            flex-wrap: nowrap;
+        }
+
+        .hero-subtitle {
+            font-family: 'Marcellus', serif;
+            font-size: calc(18px + 0.390625vw);
+        }
+
+        .hero-normal {
+            font-family: 'Roboto', serif;
+            font-size: calc(14px + 0.390625vw);
+        }
+
+        .hero-imgbox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-imgwrap {
+            width: 100%;
+            /*or whatever you choose*/
+            margin: auto;
+        }
+
+        .hero-imgwrap img {
+            display: block;
+            width: 100%;
+            max-width: 150px;
+            /*actual image width*/
+            height: auto;
+            /* maintain aspect ratio*/
+            margin: auto;
+            /*optional centering of image*/
+        }
+
+        .section-clear {
+            background: rgba(255, 255, 255, 0);
+        }
+
+        .section-activities {
+            background-color: rgba(0, 0, 0, 0.75);
+            min-height: 100vh;
+            color: white;
+        }
+
+        .light {
+            color: white;
+        }
+
+        .dark {
+            color: black;
+        }
+
+        .activities-card {
+            min-height: 25vh;
+            font-size: 0.9em;
+            font-size-adjust: auto;
+            position: relative;
+            display: inline-table;
+
+        }
+
+        @media (min-width:768px) {
+            .activities-card {
+                height: 50vh;
+            }
+        }
+
+        #section-message1 {
+            background-color: #ffffffda;
+            color: #000000;
+            min-height: 10vh;
+            text-align: center;
+            margin: 5%;
+            padding: 20px;
+            font-size: medium;
+            font-family: montserrat, sans-serif;
+            font-style: normal;
+            text-shadow: 1px 1px 0.5em #fff, 1px 1px 0.5em #fff, 1px 1px 0.5em #fff, 1px 1px 0.5em #fff;
+        }
+
+        .section-certification {
+            background-color: #494048;
+            color: #FFFFFF;
+            min-height: 100vh;
+        }
+
+        .section-autopromo {
+            background-color: #494048;
+            color: #FFFFFF;
+            max-height: 90vh;
+            overflow: auto;
+        }
+
+        #section-blog {
+            height: 100vh;
+            background-color: #4d4d4ddf;
+            color: #ffffff;
+            overflow: auto;
+            text-align: center;
+        }
+
+        #section-uwake {
+            min-height: 10vh;
+            padding: 10vh;
+            background-color: #969696a3;
+            color: #000000;
+            overflow: auto;
+            text-align: center;
+        }
+
+        .autopromo-content {
+            float: none;
+        }
+
+        .autopromo-content img {
+            width: 90vw;
+            margin-left: 5%;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Marcellus', serif;
+        }
+
+        .block-title {
+            text-align: center;
+        }
+
+        .lighttext {
+            color: white;
+        }
+
+        .fa-face {
+            width: 6rem;
+            height: 6rem;
+            line-height: 6rem;
+            background-color: rgb(39, 143, 132);
+            color: rgb(73, 64, 72);
+        }
+
+        .certifications {
+            width: 100%;
+            height: 25%;
+        }
+
+        .certifications img {
+            min-width: 100px;
+            max-width: 150px;
+            width: 5vw;
+        }
+
+        .certifications .certif {
+            font-size: 1.1em;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            margin: 5px;
+        }
+
+        .section-testimonials {
+            background-color: rgba(0, 0, 0, 0.75);
+            min-height: 10vh;
+        }
+
+        .section-testimonials h1 {
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .carousel-item {
+            background-color: white;
+            border-radius: 5px;
+            min-width: 400px;
+            max-width: 80%;
+            height: 80%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            margin-bottom: 10%;
+            margin-top: 10%;
+            padding: 15px;
+        }
+
+        .carousel-icon {
+            margin-right: 5px;
+            vertical-align: middle;
+            text-align: center;
+            display: flex;
+            float: left;
+        }
+
+        .testi-name {
+            color: #707070;
+            margin-top: 10px;
+        }
+
+        .testi-comment {
+            margin-left: 15px;
+        }
