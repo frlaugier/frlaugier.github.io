@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        .bg {
+            aspect-ratio: 16 / 9;
+            background: pink;
+        }
+
+        .message-wrapper {
+            font-size: 20vh;
+            position: fixed;
+            top: 35vh;
+            overflow: hidden;
+            width: 100%;
+            height: 100vh;
+
+        }
+
+        .message {}
+
+        .message span {
+            animation: scroll1 15s linear 0s infinite forwards;
+            -webkit-animation: scroll1 15s linear 0s infinite forwards;
+            width: fit-content;
+            white-space: nowrap;
+            min-width: 100%;
+            display: inline-block;
+        }
+
+        @keyframes scroll1 {
+            0% {
+                transform: translateX(100%);
+                -webkit-transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+                -webkit-transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="message-wrapper">
+            <div class="message">
+                <span id="message">C'est un bon jour...................</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
